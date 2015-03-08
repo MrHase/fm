@@ -7,7 +7,7 @@
 #include <vector>
 #include <functional>
 #include <sstream>
-
+#include <iostream>
 
 
 using namespace std;
@@ -297,7 +297,8 @@ private:
 
 
 
-#include <jsoncpp/json/json.h>
+//#include <jsoncpp/json/json.h>
+#include <json/json.h>
 class JSON:public MyMLClass{
 public:
     JSON(MyML &myml):MyMLClass(myml){}
@@ -355,7 +356,7 @@ public:
 //#include "../rapidxml-1.13/rapidxml.hpp"
 //using namespace rapidxml;
 
-#include "../xml-message-passing/tinyxml++/ticpp.h"
+#include "../xmp/tinyxml++/ticpp.h"
 #include <sstream>
 class XML:public MyMLClass{
 public:

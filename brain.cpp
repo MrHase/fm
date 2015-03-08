@@ -4,7 +4,7 @@
 #include "helper.h"
 using namespace  std;
 
-#include "../xml-message-passing/xmplib.hpp"
+#include "../xmp/xmplib.hpp"
 void Viewer(xmp::XmpConnector& xmp,string name,MyML& myml){
     MyML msg;
     msg.AddA("name",name);
